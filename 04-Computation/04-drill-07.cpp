@@ -10,7 +10,7 @@ int main () {
     double largest_db = 0;
 
     while(input != "|") {
-        std::cout << "Enter a number with unit (cm, m, in, ft). (Enter '|' to exit):     ";
+        std::cout << "Enter a number with unit (cm, m, in, ft). (Enter '|' to exit):    s .";
         std::getline(std::cin, input);
         for(int i=0; i < input.length(); i++) {
             if(input[i] != ' ') {
