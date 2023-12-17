@@ -28,10 +28,15 @@ int main () {
                 input_fmt.push_back(input[i]);
             }
         }
+        // Sanity check, if unit is a valid one ( cm, m, in, ft)
+        if (input_fmt != "m" && input_fmt != "cm" && input_fmt != "in" && input_fmt != "ft") {
+            std::cout << "Unit is not correct. " << std::endl;
+            input_fmt = "invalid";
+        }
         //std::cout << input_nr << std::endl;
         //std::cout << input_fmt << std::endl;
 
-        if(input !="|" ) {
+        if(input !="|" && input_fmt != "invalid") {
             // Convert input_nr into standard meters, depending on unit 
             if (input_fmt == "cm") {
                 input_db = std::stod(input) / 100;
