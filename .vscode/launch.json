@@ -8,7 +8,7 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program": "${workspaceFolder}/builds/04-drill-10",
+            "program": "${workspaceFolder}/builds/04-drill-11",
             "args": [],
             "cwd": "${workspaceFolder}/builds/"
         }
