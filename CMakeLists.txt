@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(ProgPrincPract-Cpp VERSION 0.1.0 LANGUAGES C CXX)
+
+include(CTest)
+enable_testing()
+
+add_executable(04-drill-01 04-Computation/04-drill-01.cpp)
+add_executable(04-drill-02 04-Computation/04-drill-02.cpp)
+add_executable(04-drill-03 04-Computation/04-drill-03.cpp)
+add_executable(04-drill-04 04-Computation/04-drill-04.cpp)
+add_executable(04-drill-05 04-Computation/04-drill-05.cpp)
+add_executable(04-drill-06 04-Computation/04-drill-06.cpp)
+add_executable(04-drill-07 04-Computation/04-drill-07.cpp)
+add_executable(04-drill-08 04-Computation/04-drill-08.cpp)
+add_executable(04-drill-09 04-Computation/04-drill-09.cpp)
+add_executable(04-drill-10 04-Computation/04-drill-10.cpp)
+add_executable(04-drill-11 04-Computation/04-drill-11.cpp)
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)
