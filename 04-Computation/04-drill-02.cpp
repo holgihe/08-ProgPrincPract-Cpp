@@ -1,9 +1,10 @@
 #include <iostream>
 #include <string>
 
-int main () {
+int main ()
+{
     std::string input1 = "";
-    std::string input2 = "";
+		std::string input2 = "";
     while(input1 != "|") {
         std::cout << "Enter first number. Enter '|' to exit:    " << std::endl;
         std::cin >> input1;
