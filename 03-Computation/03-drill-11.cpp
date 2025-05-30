@@ -1,3 +1,6 @@
+// TODO test for todo enries
+// BUG  this is an bug. yes ?
+
 #include <algorithm>
 #include <cmath>
 #include <iostream>

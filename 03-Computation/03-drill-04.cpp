@@ -5,7 +5,7 @@ int main () {
     std::string input1 = "";
     std::string input2 = "";
     while(input1 != "|") {
-        std::cout << "Enter first number (Enter '|' to exit):    ";
+        std::cout << "Enter first number (Enter '|' to exit. juhuu):    ";
         std::cin >> input1;
         if(input1 !="|") {
             std::cout << "Second number:  ";

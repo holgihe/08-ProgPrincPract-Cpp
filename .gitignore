@@ -35,3 +35,5 @@ builds
 *.exe
 *.out
 *.app
+.cache/*
+.cache/clangd/index/04-drill-01.cpp.38554C1D1F5D2F36.idx
